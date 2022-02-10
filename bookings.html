@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book a Table - The Haukai Restaurant</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-padding w3-card">
+      <a class="w3-bar-item w3-wide" style="font-weight:bolder">The Haukai Restaurant</a>
+    </div>
+    <div class="w3-bar w3-black" style="width: 100%;">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small">About Us</a>
+        <a href="bookings.html" class="w3-bar-item w3-button w3-hide-small">Book a Table</a>
+        <a href="menus.html" class="w3-bar-item w3-button w3-hide-small">Menus</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small">Aotearoa Culture</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small">Shop</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-hide-small">Contact Us</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div id="mobile" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+      <a href="bookings.html" class="w3-bar-item w3-button">Book a Table</a>
+      <a href="menus.html" class="w3-bar-item w3-button">Menus</a>
+      <a href="index.html" class="w3-bar-item w3-button">Aotearoa Culture</a>
+      <a href="index.html" class="w3-bar-item w3-button">Shop</a>
+      <a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px">
+  <img class="w3-image w3-hide-small" src="images/image_banner.jpg" alt="The Haukai Restaurant" width="1600" height="800">
+</header>
+
+  <div class="w3-content w3-padding-top-64" style="max-width:1100px">
+
+    <!-- Booking form -->
+    <div class="container">
+    <iframe class= "responsive-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLScFJN4S2Hz_2SlW3bqfSCl_PH87puxDmQaAvl_iIbHeV3-DDg/viewform?embedded=true" width="640" height="1632" frameborder="0" marginheight="0" marginwidth="0" alt="Booking form">Loading…</iframe>
+    </div>
+</div>
+
+<!-- End page content -->
+
+<!-- Footer -->
+<div class="footer">
+  - <a href="privacy.html">Privacy Statement</a> - <a href="staff_portal.html">Staff Portal</a> - 
+</div>
+
+<!-- Javascript -->
+<script>
+    function myFunction() {
+      var x = document.getElementById("mobile");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+</body>
+
+</html>

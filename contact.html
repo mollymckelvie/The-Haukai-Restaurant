@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>Contact Us - The Haukai Restaurant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/default.css">
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-padding w3-card">
+      <a class="w3-bar-item w3-wide" style="font-weight:bolder">The Haukai Restaurant</a>
+    </div>
+    <div class="w3-bar w3-black" style="width: 100%;">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small">About Us</a>
+        <a href="bookings.html" class="w3-bar-item w3-button w3-hide-small">Book a Table</a>
+        <a href="menus.html" class="w3-bar-item w3-button w3-hide-small">Menus</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small">Aotearoa Culture</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small">Shop</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-hide-small">Contact Us</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div id="mobile" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+      <a href="bookings.html" class="w3-bar-item w3-button">Book a Table</a>
+      <a href="menus.html" class="w3-bar-item w3-button">Menus</a>
+      <a href="index.html" class="w3-bar-item w3-button">Aotearoa Culture</a>
+      <a href="index.html" class="w3-bar-item w3-button">Shop</a>
+      <a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+    </div>
+  </div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image w3-hide-small" src="images/image_banner.jpg" alt="The Haukai Restaurant" width="1600" height="800">
+</header>
+
+<!-- Page content -->
+
+<div class="w3-content w3-padding-top-48" style="max-width:1100px">
+
+    <!-- Homepage section -->
+    <div class="w3-row w3-padding-32">
+        <h5 class="w3-center">Feel free to get in touch!</h5>
+        <div class="w3-container">
+        <table class="w3-large">
+            <tr>
+                <th>Phone:</th>
+                <td><a href="tel:+094014019">+09 401 4019</a></td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><a href="mailto:haukairestaurant@gmail.com">haukairestaurant@gmail.com</a></td>
+            </tr>
+            <tr>
+                <th>Address:</th>
+                <td>1 Island Street Kerikeri, Bay of Islands</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-padding-large">
+        <h5 class="w3-center">Opening Hours</h5>
+        <div class="w3-container">
+            <table class="w3-large">
+                <tr>
+                    <th>Monday:</th>
+                    <td>Closed</td>
+                </tr>
+                <tr>
+                    <th>Tuesday:</th>
+                    <td>Closed</td>
+                </tr>
+                <tr>
+                    <th>Wednesday:</th>
+                    <td>5pm - 10pm</td>
+                </tr>
+                <tr>
+                    <th>Thursday:</th>
+                    <td>5pm - 10pm</td>
+                </tr>
+                <tr>
+                    <th>Friday:</th>
+                    <td>5pm - Midnight</td>
+                </tr>
+                <tr>
+                    <th>Saturday:</th>
+                    <td>5pm - Midnight</td>
+                </tr>
+                <tr>
+                    <th>Sunday:</th>
+                    <td>5pm - 10pm</td>
+                </tr>
+            </table>
+        </div>
+      </div>
+
+      <div class="w3-col m6 w3-padding-large">
+          <div class= "w3-container w3-padding-large">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208620.84001482077!2d173.82296579562697!3d-35.21392532091659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0bb73e31b0728b%3A0x500ef6143a2d500!2sKerikeri%2C%20New%20Zealand!5e0!3m2!1sen!2suk!4v1642639027085!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" alt="Google Map location"></iframe>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- End page content -->
+
+<!-- Footer -->
+<div class="footer">
+  - <a href="privacy.html">Privacy Statement</a> - <a href="staff_portal.html">Staff Portal</a> - 
+</div>
+
+<!-- Javascript -->
+<script>
+    function myFunction() {
+      var x = document.getElementById("mobile");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+</body>
+</html>
